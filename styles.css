@@ -96,3 +96,28 @@ a{color:inherit;text-decoration:none}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
 @media(max-width:850px){.site-header{padding:0 22px}.main-nav{gap:16px}.hero{padding:55px 35px}.section,.how-section{padding:55px 35px}.category-grid{grid-template-columns:repeat(2,1fr)}.how-section{grid-template-columns:1fr;gap:30px}.help-banner{margin:35px}.book-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:620px){.site-header{height:68px}.menu-toggle{display:block;order:3}.main-nav{display:none;position:absolute;left:0;right:0;top:68px;padding:18px 24px;background:white;border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start;gap:16px}.main-nav.open{display:flex}.brand{font-size:16px}.hero{grid-template-columns:1fr;padding:54px 25px 35px}.hero h1{font-size:39px}.hero-art{height:230px}.art-circle{width:205px;height:205px}.toucan-large{font-size:90px}.book-stack{left:7%;bottom:10px}.floating-note{right:0;bottom:20px}.hero-actions{flex-wrap:wrap;gap:15px}.section,.how-section{padding:48px 22px}.section-heading{align-items:flex-start;gap:10px;flex-direction:column}.category-grid,.subcategory-grid,.book-grid{grid-template-columns:1fr}.category-card{min-height:180px}.steps{grid-template-columns:1fr}.steps article{padding:18px}.step-icon{margin:8px 0}.help-banner{margin:25px 22px;padding:25px;align-items:flex-start;flex-direction:column}.site-footer{flex-direction:column;align-items:flex-start}.breadcrumbs{padding-left:22px;flex-wrap:wrap}.page-intro{padding-top:35px}.catalog-toolbar{align-items:flex-start;flex-direction:column}.search-box{max-width:none}}
+/* Hero fotográfico: fotografía real en lugar de la ilustración decorativa */
+.hero-art{
+  height:auto;
+  min-height:300px;
+  display:block;
+  border:1px solid #ffffff30;
+  border-radius:22px;
+  overflow:hidden;
+  box-shadow:0 24px 55px #071c3050;
+  background:#24435b;
+  animation:fade-in 1s .15s ease both;
+}
+.hero-photo{
+  display:block;
+  width:100%;
+  height:100%;
+  min-height:300px;
+  aspect-ratio: 4 / 3;
+  object-fit:cover;
+  object-position:center;
+}
+@media(max-width:620px){
+  .hero-art{min-height:220px;border-radius:16px}
+  .hero-photo{min-height:220px;aspect-ratio:16 / 10}
+}
