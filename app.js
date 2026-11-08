@@ -22,10 +22,11 @@ const demoBooks={
  ],
  "Historia de México":[
   ["Historia natural y moral de las Indias (tomo II)","José de Acosta","Fuente histórica sobre pueblos, costumbres, organización y acontecimientos de las sociedades indígenas americanas. Debe leerse con perspectiva crítica.","https://www.gutenberg.org/cache/epub/50430/pg50430-images.html"],
-  ["Cristóbal Colón y el descubrimiento de América (tomo I)","Alexander von Humboldt; traducción de Luis Navarro y Calvo","Estudio histórico sobre la geografía del continente y la navegación de los siglos XV y XVI.","https://www.gutenberg.org/cache/epub/61831/pg61831-images.html"]
+  ["Historia de la conquista de México (tomo II)","Antonio de Solís","Relato histórico de la conquista de México, escrito en el siglo XVII.","https://www.gutenberg.org/cache/epub/67524/pg67524-images.html"]
  ],
  "Historia Universal":[
-  ["Los nueve libros de la Historia (tomo I)","Heródoto; traducción de Bartolomé Pou","Obra clásica sobre los pueblos y acontecimientos del mundo antiguo. La traducción española es del siglo XVIII.","https://www.gutenberg.org/cache/epub/72753/pg72753-images.html"]
+  ["Los nueve libros de la Historia (tomo I)","Heródoto; traducción de Bartolomé Pou","Obra clásica sobre los pueblos y acontecimientos del mundo antiguo. La traducción española es del siglo XVIII.","https://www.gutenberg.org/cache/epub/72753/pg72753-images.html"],
+  ["Cristóbal Colón y el descubrimiento de América (tomo I)","Alexander von Humboldt; traducción de Luis Navarro y Calvo","Estudio histórico sobre la geografía del continente y la navegación de los siglos XV y XVI.","https://www.gutenberg.org/cache/epub/61831/pg61831-images.html"]
  ]
 };
 function getParams(){return new URLSearchParams(location.search)}
