@@ -72,6 +72,24 @@ const demoBooks={
  ],
  "Aritmética":[
   ["Lecciones matemáticas","José Ignacio Bartolache","Obra histórica que anuncia el estudio de la aritmética y presenta fundamentos del método matemático.","https://es.wikisource.org/wiki/Lecciones_Matem%C3%A1ticas"]
+ ],
+ "Programación":[
+  ["Think Python en español (3.ª edición)","Allen B. Downey; traducción de Miguel Ángel Durán (midudev)","Introducción actual a Python para principiantes, con ejercicios y notebooks. Texto bajo licencia Creative Commons BY-NC-SA 4.0.","https://libropython.es/think-python-es.pdf"],
+  ["Introducción a la programación con Python","Andrés Marzal Varó e Isabel Gracia Luengo","Manual universitario de la Universitat Jaume I con fundamentos, estructuras de control, funciones, colecciones y ejercicios. Licencia CC BY-NC-SA 2.5.","https://openlibro.com/wp-content/uploads/2026/08/introduccion-a-la-programacion-con-python-uji.pdf"]
+ ],
+ "Computación":[
+  ["Introducción a la organización y arquitectura de la computadora","Jorge R. Osio y Daniel Martin Morales","Libro universitario sobre sistemas binarios, lógica digital, microprocesadores, memoria y arquitectura de computadores. Publicado por la Universidad Nacional Arturo Jauretche bajo licencia CC BY-SA 2.5 AR.","https://rid.unaj.edu.ar/bitstreams/fcc456b7-a90c-4e2c-85a2-edee286e1fcf/download"]
+ ],
+ "Redes":[
+  ["Fundamentos de Redes de Computadoras","Uriel Marín Monterde","Recurso educativo de la UNAM sobre componentes, topologías, protocolos y servicios TCP/IP. Licencia CC BY-NC-ND 4.0; se muestra sin modificar.","https://repositorio-uapa.cuaed.unam.mx/repositorio/moodle/pluginfile.php/2783/mod_resource/content/1/UAPA-Fundamentos-Redes-Computadoras/index.html"]
+ ],
+ "Historia contemporánea":[
+  ["Historia del mundo contemporáneo (1870-2008)","María Dolores Béjar Puche (comp.)","Libro universitario en español sobre procesos y acontecimientos del mundo contemporáneo. Publicado por la UNLP bajo licencia CC BY-NC-SA 4.0.","https://sedici.unlp.edu.ar/bitstream/handle/10915/47931/Documento_completo.pdf?isAllowed=y&sequence=1"],
+  ["Historia Social Contemporánea: una invitación a pensar desde el Sur","Mario Néstor Oporto, Agustina Quiroga y Cintia Noemí Rogovsky (comps.)","Obra colectiva con perspectivas históricas y sociales de América Latina. Publicada por la UNLP bajo licencia CC BY-NC-SA 4.0.","https://sedici.unlp.edu.ar/bitstream/handle/10915/96082/Documento_completo.pdf-PDFA.pdf?isAllowed=y&sequence=1"]
+ ],
+ "Estadística":[
+  ["Estadística, probabilidad e inferencia","Juan Jesús Cañas Escamilla y José Román Galo Sánchez","Libro digital interactivo sobre estadística descriptiva, probabilidad e inferencia. Licencia CC BY-NC-SA 4.0.","https://prometeo.matem.unam.mx/recursos/VariosNiveles/iCartesiLibri/recursos/Estadistica_Probabilidad_e_Inferencia/"],
+  ["Estadística descriptiva y probabilidad: teoría y problemas","Inmaculada Espejo Miranda y otros","Manual universitario con estadística descriptiva, representaciones gráficas, medidas de tendencia central y probabilidad. Publicado bajo GNU Free Documentation License.","https://knuth.uca.es/moodle/pluginfile.php/38423/mod_folder/content/0/lib_edyp.c4.pdf?forcedownload=1"]
  ]
 };
 function getParams(){return new URLSearchParams(location.search)}
