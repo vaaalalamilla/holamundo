@@ -125,3 +125,18 @@ a{color:inherit;text-decoration:none}
 .category-photo{display:block;width:100%;height:112px;object-fit:cover;border-radius:10px;margin:0 0 12px;}
 .category-card{min-height:245px;}
 @media(max-width:620px){.category-photo{height:150px;}}
+
+/* Acción para abrir el libro */
+.book-info{flex:1;min-width:0}.book-view{margin-top:8px;padding:9px 14px;font-size:11px;width:max-content}
+.reader-layout{max-width:1120px;margin:0 auto;padding:25px clamp(18px,5vw,55px) 65px}
+.reader-heading{background:#fff;border:1px solid var(--line);border-radius:16px;padding:25px 28px;margin-bottom:18px}
+.reader-heading h1{font:800 clamp(25px,3vw,36px)/1.2 Manrope,sans-serif;color:var(--navy);margin:8px 0}
+.reader-heading p{margin:4px 0;color:var(--muted);font-size:13px}
+.reader-author{font-weight:700;color:#527da4!important}
+.reader-status{font-size:12px;color:#637b92;background:#edf3f8;padding:12px 15px;border-radius:9px;margin:12px 0}
+.reader-frame-wrap{height:min(72vh,820px);min-height:480px;background:white;border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:0 12px 35px #183e680b}
+.reader-frame{width:100%;height:100%;border:0;background:white}
+.reader-actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:16px}
+.reader-source{font-size:12px;color:#527da4;font-weight:700;text-decoration:underline}
+.reader-back{font-size:12px;color:#718096}
+@media(max-width:620px){.reader-layout{padding:18px 16px 45px}.reader-heading{padding:20px}.reader-frame-wrap{height:68vh;min-height:400px}}
