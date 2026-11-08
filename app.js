@@ -7,26 +7,69 @@ const catalog={
 };
 const demoBooks={
  "Biología":[
-  ["Historia natural y moral de las Indias (tomo I)","José de Acosta","Tratado histórico sobre el cielo, el clima, los minerales, las plantas y los animales de América. Es una fuente histórica, no un manual científico actual.","https://www.gutenberg.org/cache/epub/70219/pg70219-images.html"]
+  ["Historia natural y moral de las Indias (tomo I)","José de Acosta","Tratado histórico sobre plantas, animales, minerales y fenómenos naturales de América. Fuente de época; no es un manual científico actual.","https://www.gutenberg.org/cache/epub/70219/pg70219-images.html"],
+  ["Historia natural y moral de las Indias (tomo II)","José de Acosta","Continúa la descripción histórica de la naturaleza y las sociedades americanas. Fuente histórica, no científica actualizada.","https://www.gutenberg.org/cache/epub/50430/pg50430-images.html"]
  ],
  "Ciencias de la Tierra":[
-  ["Historia natural y moral de las Indias (tomo I)","José de Acosta","Observaciones históricas sobre geografía, clima y naturaleza del continente americano. Sus explicaciones reflejan el conocimiento de su época.","https://www.gutenberg.org/cache/epub/70219/pg70219-images.html"]
+  ["Historia natural y moral de las Indias (tomo I)","José de Acosta","Observaciones históricas sobre geografía, clima y naturaleza del continente americano.","https://www.gutenberg.org/cache/epub/70219/pg70219-images.html"],
+  ["Historia natural y moral de las Indias (tomo II)","José de Acosta","Segundo tomo de la obra, con descripciones históricas del continente americano.","https://www.gutenberg.org/cache/epub/50430/pg50430-images.html"]
+ ],
+ "Física":[
+  ["Lecciones matemáticas","José Ignacio Bartolache","Cuaderno publicado en México en 1769. Introduce el método matemático y anuncia temas como mecánica, óptica y astronomía; es un documento histórico, no un texto moderno de física.","https://es.wikisource.org/wiki/Lecciones_Matem%C3%A1ticas"]
+ ],
+ "Química":[
+  ["Historia natural y moral de las Indias (tomo I)","José de Acosta","Fuente histórica que describe elementos, minerales y sustancias naturales desde el conocimiento del siglo XVI. No sustituye un texto actual de química.","https://www.gutenberg.org/cache/epub/70219/pg70219-images.html"]
  ],
  "Novela":[
   ["Don Quijote de la Mancha","Miguel de Cervantes","Novela clásica de la literatura española, disponible en texto completo en español.","https://www.gutenberg.org/cache/epub/2000/pg2000-images.html"],
-  ["Novelas ejemplares","Miguel de Cervantes","Colección de novelas cortas que exploran la sociedad y la conducta humana.","https://www.gutenberg.org/cache/epub/61202/pg61202-images.html"]
+  ["Novelas ejemplares","Miguel de Cervantes","Colección de novelas cortas que exploran la sociedad y la conducta humana.","https://www.gutenberg.org/cache/epub/61202/pg61202-images.html"],
+  ["Doña Perfecta","Benito Pérez Galdós","Novela sobre los conflictos sociales, políticos y religiosos de la España del siglo XIX.","https://www.gutenberg.org/cache/epub/15725/pg15725-images.html"]
  ],
  "Cuento":[
   ["Cuentos de amor","Emilia Pardo Bazán","Colección de relatos breves de la escritora española.","https://www.gutenberg.org/cache/epub/55514/pg55514-images.html"],
-  ["Cosas que fueron: cuadros de costumbres","Pedro Antonio de Alarcón","Relatos y cuadros de costumbres que retratan la vida social del siglo XIX.","https://www.gutenberg.org/cache/epub/61244/pg61244-images.html"]
+  ["Cosas que fueron: cuadros de costumbres","Pedro Antonio de Alarcón","Relatos y cuadros de costumbres que retratan la vida social del siglo XIX.","https://www.gutenberg.org/cache/epub/61244/pg61244-images.html"],
+  ["Fábulas","Félix María Samaniego","Fábulas en verso con intención didáctica y satírica.","https://www.gutenberg.org/cache/epub/55206/pg55206-images.html"],
+  ["Fábulas literarias","Tomás de Iriarte","Fábulas en verso que reflexionan sobre la literatura y la conducta humana.","https://www.gutenberg.org/files/29497/29497-h/29497-h.htm"]
+ ],
+ "Poesía":[
+  ["Obras escogidas","Gustavo Adolfo Bécquer","Selección que reúne Rimas, leyendas y prosa literaria. La edición incluye un prólogo posterior que debe considerarse por separado al revisar derechos.","https://www.gutenberg.org/cache/epub/53552/pg53552-images.html"],
+  ["Fábulas","Félix María Samaniego","Composiciones en verso de carácter didáctico y satírico.","https://www.gutenberg.org/cache/epub/55206/pg55206-images.html"],
+  ["Fábulas literarias","Tomás de Iriarte","Poesía didáctica en forma de fábula.","https://www.gutenberg.org/files/29497/29497-h/29497-h.htm"]
+ ],
+ "Teatro":[
+  ["Fuente Ovejuna","Lope de Vega","Drama del Siglo de Oro sobre la justicia y la resistencia colectiva.","https://www.gutenberg.org/cache/epub/60198/pg60198-images.html"],
+  ["Los entremeses","Miguel de Cervantes","Colección de piezas teatrales breves y cómicas.","https://www.gutenberg.org/cache/epub/57955/pg57955-images.html"],
+  ["La verdad sospechosa","Juan Ruiz de Alarcón","Comedia sobre las mentiras y sus consecuencias.","https://www.gutenberg.org/cache/epub/57590/pg57590-images.html"],
+  ["Las paredes oyen","Juan Ruiz de Alarcón","Comedia de enredo del Siglo de Oro.","https://www.gutenberg.org/cache/epub/77445/pg77445-images.html"],
+  ["El lindo don Diego","Agustín Moreto","Comedia que satiriza la vanidad y las apariencias.","https://www.gutenberg.org/cache/epub/76276/pg76276-images.html"],
+  ["Teatro selecto (tomo II)","Pedro Calderón de la Barca","Volumen de comedias del dramaturgo del Siglo de Oro.","https://www.gutenberg.org/cache/epub/55917/pg55917-images.html"],
+  ["Teatro selecto (tomo IV)","Pedro Calderón de la Barca","Volumen de comedias, zarzuelas y autos sacramentales.","https://www.gutenberg.org/cache/epub/63328/pg63328-images.html"],
+  ["El castigo sin venganza","Lope de Vega","Tragedia del Siglo de Oro.","https://www.gutenberg.org/cache/epub/78160/pg78160-images.html"]
  ],
  "Historia de México":[
-  ["Historia natural y moral de las Indias (tomo II)","José de Acosta","Fuente histórica sobre pueblos, costumbres, organización y acontecimientos de las sociedades indígenas americanas. Debe leerse con perspectiva crítica.","https://www.gutenberg.org/cache/epub/50430/pg50430-images.html"],
-  ["Historia de la conquista de México (tomo II)","Antonio de Solís","Relato histórico de la conquista de México, escrito en el siglo XVII.","https://www.gutenberg.org/cache/epub/67524/pg67524-images.html"]
+  ["Verdadera historia de los sucesos de la conquista de la Nueva-España (tomo I)","Bernal Díaz del Castillo","Crónica testimonial de la conquista desde la perspectiva de uno de sus participantes.","https://www.gutenberg.org/cache/epub/64945/pg64945-images.html"],
+  ["Verdadera historia de los sucesos de la conquista de la Nueva-España (tomo II)","Bernal Díaz del Castillo","Segundo tomo de la crónica de Bernal Díaz del Castillo.","https://www.gutenberg.org/cache/epub/64946/pg64946-images.html"],
+  ["Verdadera historia de los sucesos de la conquista de la Nueva-España (tomo III)","Bernal Díaz del Castillo","Tercer tomo de la crónica de la conquista.","https://www.gutenberg.org/files/64947/64947-h/64947-h.htm"],
+  ["Historia de la Conquista de México (tomo II)","Antonio de Solís","Relato histórico de la conquista de México, escrito en el siglo XVII.","https://www.gutenberg.org/files/67524/67524-h/67524-h.htm"],
+  ["Historia natural y moral de las Indias (tomo II)","José de Acosta","Incluye una narración histórica sobre las sociedades indígenas y el México antiguo; debe leerse con perspectiva crítica.","https://www.gutenberg.org/cache/epub/50430/pg50430-images.html"]
  ],
  "Historia Universal":[
-  ["Los nueve libros de la Historia (tomo I)","Heródoto; traducción de Bartolomé Pou","Obra clásica sobre los pueblos y acontecimientos del mundo antiguo. La traducción española es del siglo XVIII.","https://www.gutenberg.org/cache/epub/72753/pg72753-images.html"],
-  ["Cristóbal Colón y el descubrimiento de América (tomo I)","Alexander von Humboldt; traducción de Luis Navarro y Calvo","Estudio histórico sobre la geografía del continente y la navegación de los siglos XV y XVI.","https://www.gutenberg.org/cache/epub/61831/pg61831-images.html"]
+  ["Lecciones matemáticas","José Ignacio Bartolache","Documento de la Real Universidad de México publicado en 1769, valioso para conocer la enseñanza científica novohispana.","https://es.wikisource.org/wiki/Lecciones_Matem%C3%A1ticas"]
+ ],
+ "Culturas antiguas":[
+  ["Historia natural y moral de las Indias (tomo II)","José de Acosta","Relato histórico sobre creencias, costumbres y organización de sociedades indígenas americanas. Fuente colonial que conviene contrastar con otras perspectivas.","https://www.gutenberg.org/cache/epub/50430/pg50430-images.html"]
+ ],
+ "Innovación":[
+  ["Lecciones matemáticas","José Ignacio Bartolache","Documento novohispano que muestra la enseñanza de matemáticas y su aplicación a mecánica, navegación y arquitectura en el siglo XVIII.","https://es.wikisource.org/wiki/Lecciones_Matem%C3%A1ticas"]
+ ],
+ "Álgebra":[
+  ["Lecciones matemáticas","José Ignacio Bartolache","Cuaderno de 1769 que introduce el método matemático y anuncia el estudio de la aritmética y otras ramas.","https://es.wikisource.org/wiki/Lecciones_Matem%C3%A1ticas"]
+ ],
+ "Geometría":[
+  ["Lecciones matemáticas","José Ignacio Bartolache","Texto histórico novohispano que aborda fundamentos del método geométrico y matemático.","https://es.wikisource.org/wiki/Lecciones_Matem%C3%A1ticas"]
+ ],
+ "Aritmética":[
+  ["Lecciones matemáticas","José Ignacio Bartolache","Obra histórica que anuncia el estudio de la aritmética y presenta fundamentos del método matemático.","https://es.wikisource.org/wiki/Lecciones_Matem%C3%A1ticas"]
  ]
 };
 function getParams(){return new URLSearchParams(location.search)}
