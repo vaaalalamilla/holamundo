@@ -32,7 +32,9 @@ const demoBooks={
   ["Fábulas literarias","Tomás de Iriarte","Fábulas en verso que reflexionan sobre la literatura y la conducta humana.","https://www.gutenberg.org/files/29497/29497-h/29497-h.htm"]
  ],
  "Poesía":[
-  ["Obras escogidas","Gustavo Adolfo Bécquer","Selección que reúne Rimas, leyendas y prosa literaria. La edición incluye un prólogo posterior que debe considerarse por separado al revisar derechos.","https://www.gutenberg.org/cache/epub/53552/pg53552-images.html"],
+  ["Azul...","Rubén Darío","Obra modernista que combina prosa y poesía, publicada originalmente en el siglo XIX.","https://www.gutenberg.org/cache/epub/52894/pg52894-images.html"],
+  ["Cantos de Vida y Esperanza, Los Cisnes y otros poemas","Rubén Darío","Colección poética publicada en 1905, representativa de la madurez del modernismo.","https://www.gutenberg.org/cache/epub/50341/pg50341-images.html"],
+  ["El Gaucho Martín Fierro","José Hernández","Poema narrativo sobre la vida del gaucho en la pampa argentina.","https://www.gutenberg.org/cache/epub/14765/pg14765-images.html"],
   ["Fábulas","Félix María Samaniego","Composiciones en verso de carácter didáctico y satírico.","https://www.gutenberg.org/cache/epub/55206/pg55206-images.html"],
   ["Fábulas literarias","Tomás de Iriarte","Poesía didáctica en forma de fábula.","https://www.gutenberg.org/files/29497/29497-h/29497-h.htm"]
  ],
@@ -54,7 +56,7 @@ const demoBooks={
   ["Historia natural y moral de las Indias (tomo II)","José de Acosta","Incluye una narración histórica sobre las sociedades indígenas y el México antiguo; debe leerse con perspectiva crítica.","https://www.gutenberg.org/cache/epub/50430/pg50430-images.html"]
  ],
  "Historia Universal":[
-  ["Lecciones matemáticas","José Ignacio Bartolache","Documento de la Real Universidad de México publicado en 1769, valioso para conocer la enseñanza científica novohispana.","https://es.wikisource.org/wiki/Lecciones_Matem%C3%A1ticas"]
+  ["Los nueve libros de la Historia","Heródoto; traducción de Bartolomé Pou","Relato clásico sobre los pueblos y conflictos del mundo antiguo. Traducción histórica al español.","https://www.gutenberg.org/cache/epub/72753/pg72753-images.html"]
  ],
  "Culturas antiguas":[
   ["Historia natural y moral de las Indias (tomo II)","José de Acosta","Relato histórico sobre creencias, costumbres y organización de sociedades indígenas americanas. Fuente colonial que conviene contrastar con otras perspectivas.","https://www.gutenberg.org/cache/epub/50430/pg50430-images.html"]
