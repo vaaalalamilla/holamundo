@@ -15,10 +15,15 @@ const demoBooks={
   ["Historia natural y moral de las Indias (tomo II)","José de Acosta","Segundo tomo de la obra, con descripciones históricas del continente americano.","https://www.gutenberg.org/cache/epub/50430/pg50430-images.html"]
  ],
  "Física":[
-  ["Lecciones matemáticas","José Ignacio Bartolache","Cuaderno publicado en México en 1769. Introduce el método matemático y anuncia temas como mecánica, óptica y astronomía; es un documento histórico, no un texto moderno de física.","https://es.wikisource.org/wiki/Lecciones_Matem%C3%A1ticas"]
+  ["Lecciones matemáticas","José Ignacio Bartolache","Cuaderno publicado en México en 1769. Introduce el método matemático y anuncia temas como mecánica, óptica y astronomía; es un documento histórico, no un texto moderno de física.","https://es.wikisource.org/wiki/Lecciones_Matem%C3%A1ticas"],
+  ["Física universitaria, volumen 1","Samuel J. Ling, Jeff Sanny y William Moebs","Texto universitario abierto sobre mecánica, ondas y sonido. OpenStax, licencia CC BY 4.0.","https://openstax.org/books/f%C3%ADsica-universitaria-volumen-1/pages/prefacio"],
+  ["Física universitaria, volumen 2","Samuel J. Ling, Jeff Sanny y William Moebs","Texto universitario abierto sobre termodinámica, electricidad y magnetismo. OpenStax, licencia CC BY 4.0.","https://openstax.org/books/f%C3%ADsica-universitaria-volumen-2/pages/prefacio"],
+  ["Física universitaria, volumen 3","Samuel J. Ling, Jeff Sanny y William Moebs","Texto universitario abierto sobre óptica y física moderna. OpenStax, licencia CC BY 4.0.","https://openstax.org/books/f%C3%ADsica-universitaria-volumen-3/pages/prefacio"]
  ],
  "Química":[
-  ["Historia natural y moral de las Indias (tomo I)","José de Acosta","Fuente histórica que describe elementos, minerales y sustancias naturales desde el conocimiento del siglo XVI. No sustituye un texto actual de química.","https://www.gutenberg.org/cache/epub/70219/pg70219-images.html"]
+  ["Historia natural y moral de las Indias (tomo I)","José de Acosta","Fuente histórica que describe elementos, minerales y sustancias naturales desde el conocimiento del siglo XVI. No sustituye un texto actual de química.","https://www.gutenberg.org/cache/epub/70219/pg70219-images.html"],
+  ["Química 2ed","Paul Flowers y colaboradores","Libro de química general en español con temas de estructura atómica, reacciones, termodinámica, equilibrio, electroquímica y química orgánica. OpenStax.","https://openstax.org/books/qu%C3%ADmica-2ed/pages/1-introduccion"],
+  ["Química 1e (OpenStax)","Paul Flowers y colaboradores","Texto de química general en español que cubre materia, átomos, moléculas, soluciones y reacciones. Disponible en LibreTexts Español.","https://espanol.libretexts.org/Bookshelves/Quimica/Qu%C3%ADmica_General/Qu%C3%ADmica_1e_%28OpenStax%29"]
  ],
  "Novela":[
   ["Don Quijote de la Mancha","Miguel de Cervantes","Novela clásica de la literatura española, disponible en texto completo en español.","https://www.gutenberg.org/cache/epub/2000/pg2000-images.html"],
